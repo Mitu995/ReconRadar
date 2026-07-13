@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # ReconRadar
 
 **Consolidated Web & GitHub Reconnaissance Tool** — single-file recon script for authorized security testing / bug bounty hunting.
@@ -39,7 +38,7 @@ cat > README.md << 'EOF'
 ## Installation
 
 ```bash
-git clone <your-repo-url> ReconRadar
+git clone https://github.com/Mitu995/ReconRadar.git
 cd ReconRadar
 python3 -m venv venv
 source venv/bin/activate
@@ -105,4 +104,3 @@ python reconradar.py example.com --github-org my-org
 ## License
 
 MIT
-EOF
