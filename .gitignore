@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ReconRadar output/report files
+output/
+*.txt.bak
+report.txt
+report_*.txt
+findings.json
+findings_*.json
+*.log
+
+# Subdomain output files
+subs.txt
+subdomains*.txt
+
+# Environment variables / secrets
+.env
+.env.local
+*.pem
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Byte-compiled / optimized files
+*.pyo
+*.pyd
